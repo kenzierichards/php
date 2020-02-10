@@ -125,11 +125,11 @@
                   
                  $("#error").html('<div class="alert alert-danger" role="alert"><p><strong>there were error(s) in your form:</strong></p>' + error + '</div>');
                   
-                  return false;
+                  return false;//form will not be submitted if returns false
                   
               } else {
                   
-                  return true;
+                  return true; //submits form
                   
               }
           })
